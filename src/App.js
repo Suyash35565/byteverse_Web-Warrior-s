@@ -6,17 +6,18 @@ import{
   Routes,
   Route
 } from "react-router-dom"
-import Login from './screens/Login';
-import Signup from './screens/Signup';
 
+import SignupPd from './screens/SignupPd';
+import SignupCd from './screens/SignupCd';
 function App() {
   return (
     <Router>
       <div>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/login" element={<Login/>}/>
-          <Route exact path="/signup" element={<Signup/>}/>
+          
+          <Route exact path="/signuppd" element={<SignupPd/>}/>
+          <Route exact path="/signupcd" element={<SignupCd/>}/>
         </Routes>
       </div>
     </Router>
