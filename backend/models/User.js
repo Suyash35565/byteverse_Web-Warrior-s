@@ -1,0 +1,84 @@
+const mongoose=require('mongoose')
+
+const{Schema}=mongoose;
+
+const UserSchema=new Schema({
+    firstname:{
+        type:String,
+        required:false
+    },
+    lastname:{
+        type:String,
+        required:false
+    },
+    email:{
+        type:String,
+        required:false
+    },
+    password:{
+        type:String,
+        required:false
+    },
+    mobile:{
+        type:Number,
+        required:false
+    },
+    linkedin:{
+        type:String,
+        required:false
+    },
+    address:{
+        type:String,
+        required:false
+    },
+    city:{
+        type:String,
+        required:false
+    },
+    state:{
+        type:String,
+        required:false
+    },
+    zip:{
+        type:Number,
+        required:false
+    },
+    namestartup:{
+        type:String,
+        required:false
+    },
+    regstartup:{
+        type:String,
+        required:false
+    },
+    websiteurl:{
+        type:String,
+        required:false
+    },
+    sector_of_startup:{
+        type:String,
+        required:false
+    },
+    stage_of_startup:{
+        type:String,
+        required:false
+    },
+    incorporation:{
+        type:String,
+        required:false
+    },
+    company_type:{
+        type:String,
+        required:false
+    },
+    city_of_operation:{
+        type:String,
+        required:false
+    },
+    date:{
+        type:Date,
+        default:Date.now
+    }
+    
+});
+module.exports=mongoose.model('users',UserSchema)

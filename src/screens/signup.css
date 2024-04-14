@@ -30,7 +30,7 @@
      font-weight: 500;
  }
 
- button.bnt:hover {
+ a.bnt:hover {
      background-color: #ff8b00;
      color: #0b0b0b;
  }
@@ -44,12 +44,3 @@
   div.sub_go div.col-12{
     width:60vw
   }
-  div.heading{
-    color:hsl(0, 8%, 97%);
-    font-size:2vw;     
-    width: 30vw;
-    margin: auto;
-}
-div.heading:hover{
-    color:#ff8b00;
-}
