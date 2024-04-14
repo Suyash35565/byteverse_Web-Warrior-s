@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Venture Catalyst</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <!--  -->
+    <link rel="stylesheet" href="index.css"> <!--  this for main body  -->
+    <link rel="stylesheet" href="footer.css"> <!--   this for the only footer section -->
+    <style>
+    </style>
+</head>
+<body>
+
+    
+    <!--  body section is start form here -->
+    <div class="main">
+        <!--  navbar  -->
+        <h2 class="logo">
+            <img class="flogo" src="assets/logo.png" alt="logo">
+        </h2>
+        <div class="navbar">
+            <div class="icon">
+                <!-- <h2 class="logo">Venture Catalyt</h2> -->
+                
+            </div>
+            <!-- NAVBAR ALL LINKS  -->
+            <div class="menu">
+                <ul>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">INVESTORS</a></li>
+                    <li><a href="#">FOUNDERS</a></li>
+                    <li><a href="./Chatting/indeex.html">CHATBOT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <!-- TAG LINSES AND OTHER THINGS -->
+        <div class="content active">
+            <h1>Connecting Investors with Visionary <br><span>Pitchers: Empowering Ideas, </span> <br> Igniting Success
+            </h1>
+            <p class="par">“I’ve come to believe that each of us has a personal calling that’s as unique as a
+                fingerprint
+                <BR>and that the best way to succeed is to discover what you love and then find a way to offer it to
+                others <br> in the form of service, working hard, and also allowing the energy of the universe to lead
+                you.”
+                <br> -"Oprah Winfrey"
+            </p>
+            <!-- LINK OF JOIN US  -->
+            <button class="cn"><a href="./Chatting/indeex.html">JOIN US</a></button>
+            <!-- LOGIN OR SIGNUP SECTION  -->
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email  ">
+                <input type="password" name="" placeholder="Enter Password  ">
+                <button class="btnn"><a href="./Dashboard/Dash.html">Login</a></button>
+                <p class="link">Don't have an account<br>
+                    <a href="./signup/Signup.html">Sign up </a> here</a>
+                </p>
+            </div> <!-- form closes -->
+        </div> <!-- content closes -->
+    </div>
+    </div>
+
+  
+
+
+    <!-- our sponsorship -->
+    <div class="sponsor ">
+        <div class="con "> Our Sponsor  </div>
+        <div class="sponcon">
+            <img src="assets/sponsor.png" alt="sponsor">
+        </div>
+    </div>
+
+
+ 
+    <!-- FAQ  -->
+    <div class="faqtop">
+
+        <div class="faq">
+            <div class="faqhead">FAQs</div>
+            <div class="faq-item active">
+                <h3>When was it Founded ? Where is Venture Catalyst registerd?</h3>
+                <p>Venture Catalyst was founded in April 2024, and is now registered as Venture Catalyst Technologies
+                    Pvt Ltd in India since April 12,2024. Venture Catalyst is India’s most trusted platform for Startups
+                    for seed/angel funding. We connect startups with Global angels, VCs and Startup programs.</p>
+            </div>
+            <div class="faq-item active">
+                <h3>How do I contact Venture Catalyst? What is the office address and contact number? </h3>
+                <p>Please visit our contact us page to see office address, directions and also the phone number to
+                    contact.</p>
+            </div>
+            <div class="faq-item active">
+                <h3>Is there any product guide or doucmentation about all the features on Venture Caltlyst plaform ?
+                </h3>
+                <p> We will be coming up with shortly and will be made available to all the registered users where you
+                    will be able to search product documentation, search knowledgebase articles etc.</p>
+            </div>
+            <div class="faq-item active">
+                <h3>How can I submit a product support issue? </h3>
+                <p> Please send any product related question or issues to support@venturecatalyst.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer section  -->
+    <footer>
+        <div class="footer-content">
+            <h3>
+                <img class="flogo" src="assets/logo.png" alt="logo">
+                <br>
+                Venture Catalyst
+            </h3>
+            <p></p>
+            <div class="socials">
+                <ul class="socials">
+                    <li><a href="#"><i class="facebook"> <img class="scon" src="assets/facebook.svg"
+                                    alt="facebook"></i></a></li>
+                    <li><a href="#"><i class="twitter"> <img class="scon" src="assets/twitter.svg" alt="facebook">
+                            </i></a></li>
+                    <li><a href="#"><i class="insta"> <img class="scon" src="assets/insta.svg" alt="facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="linkedin"> <img class="scon" src="assets/linkedin.svg"
+                                    alt="facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="footer-bottom">
+            <p>© 2024 Venture Catalyst | Privacy Policy | Terms & Conditions</p>
+        </div>
+    </footer>
+
+    <!-- add script file for transition  -->
+    <script>
+        // this   js code for animation
+        window.addEventListener('scroll', function() {
+    var faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(function(item) {
+        var position = item.getBoundingClientRect();
+ 
+        if(position.top >= 0 && position.bottom <= window.innerHeight) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+});
+    </script>
+
+</body>
+
+</html>

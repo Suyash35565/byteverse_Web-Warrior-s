@@ -1,0 +1,59 @@
+ .mainsignup {
+     width: 80vw;
+     margin: auto;
+     padding: 2vh;
+     color: #ff8b00;
+ }
+
+ body {
+     background-color: #010101;
+ }
+
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+ .navbar-nav .nav-link {
+     margin-right: 5vw;
+     font-weight: bold;
+     color: #ff8b00;
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #ffff;
+ }
+
+ img:hover {
+     width: 5vw;
+
+ }
+
+ .bnt {
+     border: 0.3vw solid #ff8b00;
+     border-radius: 3px;
+     font-weight: 500;
+ }
+
+ button.bnt:hover {
+     background-color: #ff8b00;
+     color: #0b0b0b;
+ }
+ .deck{
+    color:#ff8b00;
+    background-color: #0b0b0b;
+ }
+ .sub_go{ 
+    display:flex;     
+ }
+  div.sub_go div.col-12{
+    width:60vw
+  }
+  div.heading{
+    color:hsl(0, 8%, 97%);
+    font-size:2vw;     
+    width: 30vw;
+    margin: auto;
+}
+div.heading:hover{
+    color:#ff8b00;
+}
